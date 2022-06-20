@@ -1,0 +1,25 @@
+
+@import 'normalize-scss/sass/normalize';
+@include normalize();
+
+// @import "custom";
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'icons';
+@import 'base';
+@import 'wrapper';
+@import 'plugins';
+@import 'animations';
+@import 'typography';
+@import 'forms';
+@import 'buttons';
+@import 'video';
+@import 'helpers';
+@import 'layout';
+
+@import './components/header';
+@import './components/footer';
+
+
+@import './sections/set';

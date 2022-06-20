@@ -1,0 +1,30 @@
+.tq-app{
+  background: url('/src/static/img/app_bg.jpg');
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #000;
+}
+.main{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  flex: 0 0 auto;
+}
+.body-section{
+  flex: 1 1 auto;
+  padding: $header-height 0 0;
+  margin-left: $sidebar-width;
+  display: flex;
+  flex-direction: column;
+}
